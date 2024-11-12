@@ -29,6 +29,7 @@ flutter:
     - assets/fonts/gelion/
     - assets/images/profile/
     - assets/images/notification/
+    - assets/images/transaction/
 
   fonts:
     - family: Gelion
