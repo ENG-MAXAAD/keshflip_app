@@ -1,0 +1,55 @@
+name: keshflip_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  gap: ^3.0.1
+  country_flags: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/gelion/
+    - assets/images/profile/
+    - assets/images/notification/
+
+  fonts:
+    - family: Gelion
+      fonts:
+        - asset: assets/fonts/gelion/Gelion Light.ttf
+          weight: 300
+        - asset: assets/fonts/gelion/Gelion Light Italic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/gelion/Gelion Medium.ttf
+          weight: 500
+        - asset: assets/fonts/gelion/Gelion Medium Italic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/gelion/Gelion Bold.ttf
+          weight: 700
+        - asset: assets/fonts/gelion/Gelion Bold Italic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/gelion/Gelion Black.ttf
+          weight: 900
+        - asset: assets/fonts/gelion/Gelion Black Italic.ttf
+          weight: 900
+          style: italic
