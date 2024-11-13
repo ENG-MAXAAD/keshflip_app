@@ -57,12 +57,6 @@ class _NotificationScreenState extends State<NotificationScreen> {
           padding: const EdgeInsets.only(top: 40), // Adds 40px space at the top
           child: AppBar(
             backgroundColor: Colors.white,
-            elevation: 0,
-            systemOverlayStyle: const SystemUiOverlayStyle(
-              statusBarBrightness: Brightness.light,
-              statusBarIconBrightness: Brightness.dark,
-              statusBarColor: Colors.transparent,
-            ),
             leading: Padding(
               padding: const EdgeInsets.only(left: 24),
               child: IconButton(
@@ -73,7 +67,6 @@ class _NotificationScreenState extends State<NotificationScreen> {
                 onPressed: () => Navigator.pop(context),
               ),
             ),
-            title: const SizedBox.shrink(),
           ),
         ),
       ),
